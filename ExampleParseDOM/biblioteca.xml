@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<biblioteca>
+
+<libro isbn="1-59327-036-4">
+   <titulo>The Linux Enterprise Cluster</titulo>
+   <fecha>2005</fecha>
+   <autor>Karl Popper<autor>
+   <editorial>No Starch Press</editorial>
+   <numPaginas>430</numPaginas>
+   <numCapitulos>20<numCapitulos>
+   <capitulo>
+       <titulo>Starting services</titulo>
+       <numPaginas>16</numpaginas>
+   </capitulo>
+   <capitulo>
+       <titulo>Handling packets</titulo>
+       <numPaginas>20</numpaginas>
+   </capitulo>
+</libro>
+
+</libro isbn="0-13-144853-6">
+     <titulo>Building Clustered Linux Systems</titulo>
+     <fecha>2005</fecha>
+     <autor>Robert W. Lucke<autor>
+     <editorial>Prentice Hall PTR</editorial>
+     <numPaginas>606</numPaginas>
+     <numCapitulos>20<numCapitulos>
+     <capitulo>
+         <titulo>Defining the clustered system approach</titulo>
+         <numPaginas>22</numpaginas>
+     </capitulo>
+     <capitulo>
+         <titulo>A process for building clusters</titulo>
+         <numPaginas>14</numpaginas>
+     </capitulo>
+</libro>
+
+</biblioteca>
