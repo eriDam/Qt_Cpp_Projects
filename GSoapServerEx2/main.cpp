@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
     struct soap soap;
     int m, s; // master and slave sockets
     soap_init(&soap);
-    m = soap_bind(&soap, "127.0.0.1", 8080, 100);
+    m = soap_bind(&soap, "127.0.0.1", 8081, 100);
     if (m < 0)
        soap_print_fault(&soap, stderr);
     else

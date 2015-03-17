@@ -62,7 +62,8 @@ DIST          =  ..\GSoapExampleClient\mainwindow.h \
 		..\GSoapExampleClient\soapStub.h \
 		..\GSoapExampleClient\soapcurrentTimeProxy.h \
 		..\GSoapExampleClient\currentTime.nsmap \
-		..\GSoapExampleClient\currentTime.h ..\GSoapExampleClient\main.cpp \
+		..\GSoapExampleClient\currentTime.h \
+		..\..\..\..\Downloads\gsoap_2.8.21\gsoap-2.8\gsoap\stdsoap2.h ..\GSoapExampleClient\main.cpp \
 		..\GSoapExampleClient\mainwindow.cpp \
 		..\GSoapExampleClient\soapC.cpp \
 		..\..\..\..\Downloads\gsoap_2.8.21\gsoap-2.8\gsoap\stdsoap2.cpp \

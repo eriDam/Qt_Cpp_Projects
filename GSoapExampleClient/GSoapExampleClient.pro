@@ -27,6 +27,7 @@ HEADERS  += mainwindow.h \
     soapStub.h \
     soapcurrentTimeProxy.h \
     currentTime.nsmap \
-    currentTime.h
+    currentTime.h \
+    ../../../../Downloads/gsoap_2.8.21/gsoap-2.8/gsoap/stdsoap2.h
 
 FORMS    += mainwindow.ui

@@ -64,7 +64,9 @@ DIST          = currentTime.currentTime.req.xml \
 		ns.xsd ..\GSoapClientEx\mainwindow.h \
 		..\GSoapClientEx\currentTime.nsmap \
 		..\GSoapClientEx\soapH.h \
-		..\GSoapClientEx\soapStub.h ..\GSoapClientEx\main.cpp \
+		..\GSoapClientEx\soapStub.h \
+		..\GSoapClientEx\soapcurrentTimeProxy.h \
+		..\..\..\..\Downloads\gsoap_2.8.21\gsoap-2.8\gsoap\stdsoap2.h ..\GSoapClientEx\main.cpp \
 		..\GSoapClientEx\mainwindow.cpp \
 		..\GSoapClientEx\soapC.cpp \
 		..\GSoapClientEx\soapClient.cpp \
@@ -507,6 +509,8 @@ release/mainwindow.o: ../GSoapClientEx/mainwindow.cpp ../GSoapClientEx/mainwindo
 		../../../../Qt/5.4/mingw491_32/include/QtWidgets/qstyle.h \
 		../../../../Qt/5.4/mingw491_32/include/QtWidgets/qtabbar.h \
 		../../../../Qt/5.4/mingw491_32/include/QtWidgets/qrubberband.h \
+		../../../../Qt/5.4/mingw491_32/include/QtWidgets/QLabel \
+		../../../../Qt/5.4/mingw491_32/include/QtWidgets/qlabel.h \
 		../../../../Qt/5.4/mingw491_32/include/QtWidgets/QMenuBar \
 		../../../../Qt/5.4/mingw491_32/include/QtWidgets/qmenubar.h \
 		../../../../Qt/5.4/mingw491_32/include/QtWidgets/qmenu.h \

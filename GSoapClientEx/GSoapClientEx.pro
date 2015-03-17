@@ -24,7 +24,9 @@ SOURCES += main.cpp\
 HEADERS  += mainwindow.h \
     currentTime.nsmap \
     soapH.h \
-    soapStub.h
+    soapStub.h \
+    soapcurrentTimeProxy.h \
+    ../../../../Downloads/gsoap_2.8.21/gsoap-2.8/gsoap/stdsoap2.h
 
 FORMS    += mainwindow.ui
 
