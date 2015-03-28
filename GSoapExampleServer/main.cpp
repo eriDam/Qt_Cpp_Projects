@@ -1,5 +1,4 @@
-#include "mainwindow.h"
-#include <QApplication>
+
 #include "currentTime.h"
 
 #include "soapH.h" // include the generated declarations
@@ -13,5 +12,7 @@ int main(int argc, char *argv[])
 
     return a.exec();
 */
-    return soap_serve(soap_new());
+    struct soap *soap_instance=soap_new();
+    soap_instance->encodingStyle = "http://xml.apache.org/xml-soap/literalxml";
+    return soap_serve(soap_instance);
 }

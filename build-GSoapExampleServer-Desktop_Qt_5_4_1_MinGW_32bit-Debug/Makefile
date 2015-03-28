@@ -166,6 +166,7 @@ Makefile: ../GSoapExampleServer/GSoapExampleServer.pro ../../../../Qt/5.4/mingw4
 		../../../../Qt/5.4/mingw491_32/mkspecs/features/resolve_config.prf \
 		../../../../Qt/5.4/mingw491_32/mkspecs/features/exclusive_builds_post.prf \
 		../../../../Qt/5.4/mingw491_32/mkspecs/features/default_post.prf \
+		../../../../Qt/5.4/mingw491_32/mkspecs/features/win32/console.prf \
 		../../../../Qt/5.4/mingw491_32/mkspecs/features/win32/rtti.prf \
 		../../../../Qt/5.4/mingw491_32/mkspecs/features/precompile_header.prf \
 		../../../../Qt/5.4/mingw491_32/mkspecs/features/warn_on.prf \
@@ -173,16 +174,11 @@ Makefile: ../GSoapExampleServer/GSoapExampleServer.pro ../../../../Qt/5.4/mingw4
 		../../../../Qt/5.4/mingw491_32/mkspecs/features/resources.prf \
 		../../../../Qt/5.4/mingw491_32/mkspecs/features/moc.prf \
 		../../../../Qt/5.4/mingw491_32/mkspecs/features/win32/opengl.prf \
-		../../../../Qt/5.4/mingw491_32/mkspecs/features/uic.prf \
-		../../../../Qt/5.4/mingw491_32/mkspecs/features/win32/windows.prf \
 		../../../../Qt/5.4/mingw491_32/mkspecs/features/testcase_targets.prf \
 		../../../../Qt/5.4/mingw491_32/mkspecs/features/exceptions.prf \
 		../../../../Qt/5.4/mingw491_32/mkspecs/features/yacc.prf \
 		../../../../Qt/5.4/mingw491_32/mkspecs/features/lex.prf \
 		../GSoapExampleServer/GSoapExampleServer.pro \
-		C:/Qt/5.4/mingw491_32/lib/qtmaind.prl \
-		C:/Qt/5.4/mingw491_32/lib/Qt5Cored.prl \
-		C:/Qt/5.4/mingw491_32/lib/Qt5Widgets.prl \
 		C:/Qt/5.4/mingw491_32/lib/Qt5Gui.prl \
 		C:/Qt/5.4/mingw491_32/lib/Qt5Core.prl
 	$(QMAKE) -spec win32-g++ CONFIG+=debug -o Makefile ..\GSoapExampleServer\GSoapExampleServer.pro
@@ -293,6 +289,7 @@ Makefile: ../GSoapExampleServer/GSoapExampleServer.pro ../../../../Qt/5.4/mingw4
 ..\..\..\..\Qt\5.4\mingw491_32\mkspecs\features\resolve_config.prf:
 ..\..\..\..\Qt\5.4\mingw491_32\mkspecs\features\exclusive_builds_post.prf:
 ..\..\..\..\Qt\5.4\mingw491_32\mkspecs\features\default_post.prf:
+..\..\..\..\Qt\5.4\mingw491_32\mkspecs\features\win32\console.prf:
 ..\..\..\..\Qt\5.4\mingw491_32\mkspecs\features\win32\rtti.prf:
 ..\..\..\..\Qt\5.4\mingw491_32\mkspecs\features\precompile_header.prf:
 ..\..\..\..\Qt\5.4\mingw491_32\mkspecs\features\warn_on.prf:
@@ -300,16 +297,11 @@ Makefile: ../GSoapExampleServer/GSoapExampleServer.pro ../../../../Qt/5.4/mingw4
 ..\..\..\..\Qt\5.4\mingw491_32\mkspecs\features\resources.prf:
 ..\..\..\..\Qt\5.4\mingw491_32\mkspecs\features\moc.prf:
 ..\..\..\..\Qt\5.4\mingw491_32\mkspecs\features\win32\opengl.prf:
-..\..\..\..\Qt\5.4\mingw491_32\mkspecs\features\uic.prf:
-..\..\..\..\Qt\5.4\mingw491_32\mkspecs\features\win32\windows.prf:
 ..\..\..\..\Qt\5.4\mingw491_32\mkspecs\features\testcase_targets.prf:
 ..\..\..\..\Qt\5.4\mingw491_32\mkspecs\features\exceptions.prf:
 ..\..\..\..\Qt\5.4\mingw491_32\mkspecs\features\yacc.prf:
 ..\..\..\..\Qt\5.4\mingw491_32\mkspecs\features\lex.prf:
 ..\GSoapExampleServer\GSoapExampleServer.pro:
-C:/Qt/5.4/mingw491_32/lib/qtmaind.prl:
-C:/Qt/5.4/mingw491_32/lib/Qt5Cored.prl:
-C:/Qt/5.4/mingw491_32/lib/Qt5Widgets.prl:
 C:/Qt/5.4/mingw491_32/lib/Qt5Gui.prl:
 C:/Qt/5.4/mingw491_32/lib/Qt5Core.prl:
 qmake: FORCE
